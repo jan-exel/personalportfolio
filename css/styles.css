@@ -1,0 +1,261 @@
+html {
+	background: #292929;
+}
+body {
+	width: 100%;
+	max-width: 880px;
+	margin: 0 auto;
+	-webkit-box-shadow: 1px 1px 10px 5px;
+	box-shadow: 1px 1px 10px 5px; 
+}
+header {
+	margin: 0;
+	padding: 0;
+	height: 175px;
+}
+h1 {
+	text-align: center;
+	text-shadow: 4px 4px 4px #B4B4B4;
+}
+header img {
+	width: 100%;
+	height: 100%;	
+}
+div#content {
+	margin: 0;
+	padding: 0 0 0.5% 0;
+	background-color: #FFFFFF;
+}
+nav {
+	width: 100%;
+    height: 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 2px 1px #B4B4B4;
+    background-color: #476273;
+}
+nav ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+nav li { 
+	display: inline; 
+	padding: 20px; 
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 8px 8px 8px 8px;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000;
+	text-decoration: underline;
+}
+a:hover {
+    color: #000;
+    background-color: #4E6D80;
+}
+a:active {
+	color: #292929;
+}
+div#section1 {
+	margin: 0 20px;
+	width: 90%;
+	padding: 0 20px;
+	border-radius: 20px;	
+}
+div#section1 ul#contact li{
+	width: 35%;
+	margin: 0 30%;
+	list-style: none;
+	text-align: center;	
+}
+div#section1 ul#contact li:nth-of-type(1){
+	font-size: 24px;	
+}
+div#introabout {
+	margin: 0 20px 40px 20px;
+	width: 90%;
+	padding: 0 20px;	
+}
+div#introabout img {
+	float: right;
+	margin: 0 1% 1% 2%;
+	height: 200px;
+	width: 200px;
+	border-radius: 20px;
+	box-shadow: 1px 1px 5px 4px;
+}
+div#about {
+	clear: both;
+	margin: 0 20px;
+	width: 90%;
+	padding: 0 20px;
+	border-top: solid 3px #292929;
+}
+div#about h2 {
+	text-align: center;
+	text-shadow: 1px 2px 1px #B4B4B4;	
+}
+div#about ul#fields li{ 
+	position: static;
+	display: inline; 
+	padding: 0 2.75% 2% 2.75%;
+	font-size: 20px;
+	text-shadow: 1px 2px 1px #B4B4B4;
+}
+div#about ul#portfolio li{
+	list-style-image: url(../images/button.png);
+	vertical-align: top;
+}
+div#featured {
+	clear: both;
+	width: 55%;
+	margin: 25px 0 0 20px;
+	height: 375px;
+	float: left;
+	overflow: hidden;
+	padding: 0 20px;
+	border: solid 3px #292929;
+	border-radius: 10px;
+	position: relative;	
+}
+
+/*---------------------------------------*
+This CSS coensides with the slideshow js 
+and is 100% original from the coder :
+---------------------- Stephen A. Wilson
+Certain elements changed to meet the styling
+requirements of the website. JExel
+---------------------------------------**/
+  #featured .item {
+    display: none; }
+  #featured img {
+    z-index: 10;
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    top: 0px;
+    left: 0px; }
+  #featured .itemTitle, #featured .itemType {
+    position: absolute;
+    z-index: 1000;
+    z-index: 1000;
+    padding: 5px;
+    border-top-right-radius: 10px; }
+  #featured .itemTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    bottom: 0px;
+    background: rgba(170, 170, 170, 0.75); }
+  #featured .itemType {
+    bottom: 51px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    background: rgba(170, 170, 170, 0.75); }
+  #featured .leftButton, #featured .rightButton {
+    z-index: 1000;
+    background: rgba(221, 221, 221, 0.75);
+    position: absolute;
+    display: block;
+    width: 35px;
+    height: 35px;
+    top: 0px; }
+    #featured .leftButton .arrow, #featured .rightButton .arrow {
+      position: absolute;
+      top: 5px;
+      width: 0px;
+      height: 0px;
+      border-style: solid; }
+  #featured .leftButton:hover, #featured .rightButton:hover {
+    background: rgba(221, 221, 221, 0.9); }
+  #featured .leftButton {
+    border-bottom-right-radius: 10px;
+    left: 0px; }
+    #featured .leftButton .arrow {
+      left: 5px;
+      border-width: 10px 20px 10px 0;
+      border-color: transparent rgba(170, 170, 170, 0.75) transparent transparent; }
+  #featured .leftButton:hover .arrow {
+    border-color: transparent rgba(170, 170, 170, 0.9) transparent transparent; }
+  #featured .rightButton {
+    border-bottom-left-radius: 10px;
+    right: 0px; }
+    #featured .rightButton .arrow {
+      right: 5px;
+      border-width: 10px 0px 10px 20px;
+      border-color: transparent transparent transparent rgba(170, 170, 170, 0.75); }
+  #featured .rightButton:hover .arrow {
+    border-color: transparent transparent transparent rgba(170, 170, 170, 0.9); }
+  #featured .seeMoreButton {
+    z-index: 1000;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background: rgba(170, 170, 170, 0.75);
+    text-decoration: none;
+    color: black; }
+  #featured .seeMoreButton:hover {
+    background: rgba(221, 221, 221, 0.9); }
+  #featured .itemContent {
+    z-index: 500;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: black; }
+  #featured .itemContent:hover {
+    background: rgba(221, 221, 221, 0.15); }
+/*---------------------------------------**/
+
+
+div#socialmedia {
+	margin: 100px 25px 0 0;
+	width: 30%;
+	height: 70px;
+	float: right;
+	padding: 0 10px;
+	border: solid 3px #292929;
+	border-radius: 10px;	
+}
+div#socialmedia a:hover{
+	color: #000;
+    background-color: #FFFFFF;
+}
+div#emailform {
+	padding: 20px 75px;
+}
+div#emailform input{
+	width: 400px;
+}
+div#emailform textarea{
+	width: 400px;
+	height: 300px;
+}
+div#project {
+	margin: 1% 2%;
+	width: 90%;
+	padding: 0 20px;
+	border-radius: 20px;	
+}
+div#project img {
+	margin: 0 auto;
+	width: 65%;
+	height: 65%;
+}
+footer {
+	clear: both;
+	text-align: right;
+	margin-bottom: 0;
+	padding: 0.5% 25px;
+	background-color: #FFFFFF;
+}
