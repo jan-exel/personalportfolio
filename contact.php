@@ -6,6 +6,7 @@
 <link rel="shortcut icon" type="image/x-icon" href="images/tag.jpg" />
 <link href="css/normalize.css" rel="stylesheet" media="screen" />
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Convergence">
 </head>
 <body>
 	<header>
@@ -31,6 +32,7 @@
                 	<li>200244547@student.georgianc.on.ca</li>
                 	<li>janexel.sidescript.ca/</li>
                 </ul>
+                <p>If you have a registered account you can view my <a href="businesscontacts.php">Business Contacts</a>.
 		</div>
         <div id="socialmedia">
         <a href="mailto: janice.exel@gmail.com?subject=Portfolio Email" alt="Email me!">

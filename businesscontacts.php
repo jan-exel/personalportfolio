@@ -22,20 +22,21 @@
                 <li><a href="contact.php">Contact</a></li>
         	</ul>
 		</nav>
-    	<h1>Services</h1>
+    	<h1>Business Contacts</h1>
     	<div id="section1">
-			<h2>Computer Programming</h2>
-				<p>My programming backround would include Java, C++, and Visual C#.</p>
+        <p>In order to view business contacts please sign in. </p>
+			<form method="post" action="validate.php">
+                <div id="username">
+                    <input name="user" placeholder="Username">
+                </div>
+                <div id="password">
+                    <input name="pass" type="password" placeholder="Password">
+                </div>
+                <div id="login">
+                	<input value="Login" type="submit" class="button">
+                </div>
+        	</form>
 		</div>
-        <div id="section1">
-			<h2>Web Development</h2>
-				<p>My passion lies with web development; I love being able to apply my programming skills in such a visual mannor. Skills in the field would invlude HTML5, XHTML, CSS3, PHP, MySQL, and JavaScript.</p>
-		</div>
-        <div id="section1">
-			<h2>Database Management</h2>
-				<p>Skills include MySQL and DB2. Willing to learn other SQL platforms and find the database environment a pleasant one.</p>
-		</div>
-
     </div>
     <footer>
     	<p>&copy;2013 Janice Exel</p>

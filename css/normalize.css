@@ -66,9 +66,6 @@ audio:not([controls]) {
  */
 
 html {
-	background: white; /* 1 */
-    color: #000; /* 2 */
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; /* 3 */
     -ms-text-size-adjust: 100%; /* 4 */
     -webkit-text-size-adjust: 100%; /* 4 */
 }
